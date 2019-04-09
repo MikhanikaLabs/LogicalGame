@@ -1,0 +1,45 @@
+/*.ulBtnTable {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+    padding: 10px;
+  }
+  .liBtnTable{
+    width: 10%;
+    height: 80px;
+    background-clip: content-box;
+    padding: 10px;
+    list-style: none;
+  }
+*/
+/*
+  *{
+    box-sizing:border-box;
+  }
+  body{
+    margin:0;
+  }
+  */
+  .ulBtnTable{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 10px; 
+    justify-content: center;
+  }
+  .liBtnTable{
+    height:60px;
+    /* background-color:#cda; */
+    width:calc( ( 100% - 40px ) / 3 );
+    margin:0 0 10px;
+  }
+  .tipModal {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 250%; 
+  }
+  /*
+  .item:nth-child(3n-1){
+    margin-left:20px;
+    margin-right:20px;
+  }
+  */

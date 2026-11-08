@@ -1,11 +1,9 @@
-YAML
-
-
 name: Deploy React App to GitHub Pages
 
 on:
   push:
-    branches: ["master"] # если ветка называется main, замените master на main
+    branches:
+      - master
 
 permissions:
   contents: read
@@ -23,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
